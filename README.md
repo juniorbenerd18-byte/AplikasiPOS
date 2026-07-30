@@ -1,189 +1,188 @@
-# 🛒 POS Web Application
+# 🛒 Aplikasi Kasir (Point of Sale)
 
-> A modern web-based Point of Sale (POS) system built with **Google Apps Script** and **HTML Service**, designed to simplify sales transactions, inventory management, and business reporting through an intuitive interface.
+> Sistem Point of Sale (POS) berbasis web yang dibangun menggunakan **Google Apps Script** dan **HTML Service** untuk membantu proses transaksi penjualan, pengelolaan produk, pelanggan, serta penyusunan laporan penjualan secara efisien.
 
 ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge\&logo=google\&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Development-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Dalam%20Pengembangan-success?style=for-the-badge)
 
 ---
 
-# 📖 Overview
+# 📖 Tentang Proyek
 
-POS Web Application merupakan sistem kasir berbasis web yang dikembangkan menggunakan **Google Apps Script** sebagai backend dan **HTML Service** sebagai frontend.
+Aplikasi Kasir (Point of Sale) merupakan aplikasi berbasis web yang dikembangkan menggunakan **Google Apps Script** sebagai backend dan **HTML Service** sebagai frontend.
 
-Aplikasi ini dirancang untuk membantu proses operasional toko mulai dari transaksi penjualan, manajemen produk, pelanggan, laporan penjualan, hingga pengelolaan shift kasir dalam satu sistem yang terintegrasi.
+Aplikasi ini dirancang untuk mempermudah proses operasional toko, mulai dari transaksi penjualan, pengelolaan produk, manajemen pelanggan, pengelolaan shift kasir, hingga penyajian laporan penjualan dalam satu sistem yang terintegrasi.
 
-Dengan memanfaatkan ekosistem Google, aplikasi dapat dijalankan sebagai **Google Apps Script Web App** tanpa memerlukan server tambahan sehingga proses deployment menjadi lebih sederhana, ringan, dan mudah dikelola.
+Dengan memanfaatkan layanan Google Apps Script, aplikasi dapat dijalankan sebagai **Web App** tanpa memerlukan server khusus sehingga proses deployment menjadi lebih mudah, cepat, dan hemat biaya.
 
 ---
 
-# ✨ Key Features
+# ✨ Fitur Utama
 
-## 🔐 Authentication
+## 🔐 Autentikasi Pengguna
 
-* Login System
-* Session Management
+* Login Pengguna
+* Manajemen Session
 * Remember Me
-* Forgot Password
-* Role-Based Access Control
-* Admin & Cashier Permissions
+* Lupa Password
+* Hak Akses Berdasarkan Role
+* Admin & Kasir
 
 ---
 
 ## 📊 Dashboard
 
-Dashboard menyediakan ringkasan informasi bisnis secara real-time, meliputi:
+Dashboard menyediakan informasi penting mengenai kondisi toko secara real-time, seperti:
 
-* Today's Revenue
-* Today's Transactions
-* Total Products Sold
-* Low Stock Monitoring
-* Sales Analytics
-* Best Selling Products
-* Recent Activities
-
----
-
-## 🛍 Point of Sale (POS)
-
-Fitur utama aplikasi untuk melakukan transaksi penjualan.
-
-### Available Features
-
-* Product Search
-* Category Filter
-* Shopping Cart
-* Quantity Management
-* Automatic Tax Calculation
-* Discount Support
-* Customer Selection
-* Order Notes
-* Automatic Total Calculation
-* Receipt Printing
+* Ringkasan Penjualan Hari Ini
+* Total Transaksi
+* Total Produk Terjual
+* Monitoring Stok Produk
+* Grafik Penjualan
+* Produk Terlaris
+* Aktivitas Terbaru
 
 ---
 
-## 📦 Product Management
+## 🛍 Transaksi Kasir (POS)
+
+Fitur utama untuk melakukan transaksi penjualan.
+
+### Tersedia Fitur
+
+* Pencarian Produk
+* Filter Kategori
+* Keranjang Belanja
+* Pengaturan Jumlah Produk
+* Diskon
+* Perhitungan Pajak Otomatis
+* Catatan Produk
+* Pemilihan Pelanggan
+* Perhitungan Total Otomatis
+* Cetak Struk
+
+---
+
+## 📦 Manajemen Produk
 
 Mengelola seluruh data produk yang tersedia.
 
-Features:
+Fitur:
 
-* Add Product
-* Edit Product
-* Delete Product
-* Product Photo
-* SKU Management
-* Product Categories
-* Stock Management
-* Purchase Price
-* Selling Price
-
----
-
-## 👥 Customer Management
-
-Mengelola seluruh data pelanggan.
-
-Features:
-
-* Customer Registration
-* Customer Information
-* Purchase History
-* Membership Support
+* Tambah Produk
+* Edit Produk
+* Hapus Produk
+* Upload Foto Produk
+* Kategori Produk
+* SKU Produk
+* Harga Modal
+* Harga Jual
+* Manajemen Stok
 
 ---
 
-## 💳 Transaction Management
+## 👥 Manajemen Pelanggan
 
-Mengelola seluruh riwayat transaksi.
+Mengelola data pelanggan dan member.
 
-Features:
+Fitur:
 
-* Transaction History
-* Invoice Details
-* Search Invoice
-* Transaction Filter
-* Reprint Receipt
+* Data Pelanggan
+* Riwayat Pembelian
+* Informasi Member
 
 ---
 
-## ⏰ Shift Management
+## 💳 Riwayat Transaksi
 
-Mengelola aktivitas kasir berdasarkan shift kerja.
+Menyimpan seluruh histori transaksi.
 
-Features:
+Fitur:
 
-* Open Shift
-* Close Shift
-* Initial Cash
-* Final Cash
-* Shift Summary
-* Shift History
-
----
-
-## 📈 Reports
-
-Menyediakan laporan penjualan untuk kebutuhan analisis.
-
-Reports Include:
-
-* Daily Sales
-* Monthly Sales
-* Revenue Summary
-* Product Sales Report
-* Transaction Report
+* Daftar Transaksi
+* Detail Invoice
+* Pencarian Invoice
+* Filter Data
+* Cetak Ulang Struk
 
 ---
 
-## 🔔 Notification System
+## ⏰ Manajemen Shift
 
-Sistem notifikasi membantu pengguna mengetahui kondisi penting pada aplikasi.
+Digunakan untuk mengelola aktivitas kasir berdasarkan shift kerja.
 
-Notifications:
+Fitur:
 
-* Low Stock Alert
-* Warning Notification
-* Information Notification
-* Read Notification
-* Delete Notification
-
----
-
-## ⚙ Settings
-
-Pengaturan aplikasi.
-
-Configuration:
-
-* Store Information
-* Tax Configuration
-* Currency
-* Receipt Footer
-* User Preferences
+* Buka Shift
+* Tutup Shift
+* Modal Awal
+* Saldo Akhir
+* Ringkasan Shift
+* Riwayat Shift
 
 ---
 
-# 🛠 Technology Stack
+## 📈 Laporan Penjualan
+
+Menyediakan laporan penjualan sebagai bahan evaluasi bisnis.
+
+Jenis Laporan:
+
+* Penjualan Harian
+* Penjualan Bulanan
+* Pendapatan
+* Produk Terlaris
+* Riwayat Penjualan
+
+---
+
+## 🔔 Sistem Notifikasi
+
+Memberikan informasi penting kepada pengguna.
+
+Meliputi:
+
+* Notifikasi Stok Menipis
+* Informasi Sistem
+* Peringatan
+* Tandai Dibaca
+* Hapus Notifikasi
+
+---
+
+## ⚙ Pengaturan
+
+Mengatur konfigurasi aplikasi.
+
+Meliputi:
+
+* Informasi Toko
+* Pajak
+* Mata Uang
+* Footer Struk
+* Pengaturan Pengguna
+
+---
+
+# 🛠 Teknologi yang Digunakan
 
 ## Frontend
 
 * HTML5
 * CSS3
-* Vanilla JavaScript (ES6)
+* JavaScript (Vanilla JS)
 
 ## Backend
 
-* Google Apps Script
+* Google Apps Script (GAS)
 
-## Database
+## Basis Data
 
 * Google Spreadsheet
 
-## Libraries
+## Library
 
 * Chart.js
 * Lucide Icons
@@ -191,38 +190,38 @@ Configuration:
 
 ---
 
-# 📂 Project Structure
+# 📂 Struktur Proyek
 
 ```text
-POS-WebApp/
+Aplikasi-Kasir/
 │
 ├── Code.gs
 │   │
-│   ├── Authentication
-│   ├── Session Management
-│   ├── API Functions
-│   ├── Product Management
-│   ├── Customer Management
-│   ├── Transaction Processing
-│   ├── Shift Management
-│   ├── Report Generation
-│   ├── Notification Handler
-│   └── Utility Functions
+│   ├── Autentikasi Pengguna
+│   ├── Manajemen Session
+│   ├── API Backend
+│   ├── CRUD Produk
+│   ├── CRUD Pelanggan
+│   ├── Proses Transaksi
+│   ├── Manajemen Shift
+│   ├── Pembuatan Laporan
+│   ├── Sistem Notifikasi
+│   └── Fungsi Pendukung
 │
 ├── Index.html
 │   │
-│   ├── HTML Layout
-│   ├── CSS Styling
-│   ├── JavaScript Logic
-│   ├── Login Interface
+│   ├── Struktur HTML
+│   ├── CSS (Tampilan)
+│   ├── JavaScript (Frontend)
+│   ├── Halaman Login
 │   ├── Dashboard
-│   ├── POS Interface
-│   ├── Product Module
-│   ├── Customer Module
-│   ├── Report Module
-│   ├── Notification System
-│   ├── Modal Components
-│   └── Responsive UI
+│   ├── Halaman POS
+│   ├── Manajemen Produk
+│   ├── Manajemen Pelanggan
+│   ├── Halaman Laporan
+│   ├── Sistem Notifikasi
+│   ├── Komponen Modal
+│   └── Tampilan Responsif
 │
 ├── appsscript.json
 │
@@ -231,9 +230,9 @@ POS-WebApp/
 
 ---
 
-# 🗂 Database Structure
+# 🗄 Struktur Basis Data
 
-Data aplikasi disimpan menggunakan **Google Spreadsheet** sebagai media penyimpanan utama.
+Aplikasi menggunakan **Google Spreadsheet** sebagai media penyimpanan data.
 
 Contoh struktur sheet:
 
@@ -252,108 +251,110 @@ Logs
 
 ---
 
-# 🚀 Deployment
+# 🚀 Cara Menjalankan
 
-## Clone Repository
+1. Clone repository ini.
 
 ```bash
-git clone https://github.com/yourusername/pos-webapp.git
+git clone https://github.com/username/aplikasi-kasir.git
 ```
 
+2. Buat project baru di **Google Apps Script**.
+
+3. Upload file:
+
+* Code.gs
+* Index.html
+* appsscript.json
+
+4. Hubungkan project dengan Google Spreadsheet.
+
+5. Deploy sebagai **Web App**.
+
+6. Berikan izin akses yang diperlukan.
+
+7. Jalankan aplikasi melalui URL Web App yang telah dibuat.
+
 ---
 
-## Google Apps Script
-
-1. Create a new Google Apps Script project.
-2. Upload `Code.gs`.
-3. Upload `Index.html`.
-4. Configure `appsscript.json`.
-5. Connect the project to the Google Spreadsheet database.
-6. Deploy as **Web App**.
-7. Grant the required Google permissions.
-8. Open the generated Web App URL.
-
----
-
-# 👤 User Roles
+# 👤 Hak Akses Pengguna
 
 ## Administrator
 
 Administrator memiliki akses penuh terhadap seluruh sistem.
 
-Permissions:
+Hak akses:
 
 * Dashboard
-* POS
-* Product Management
-* Customer Management
-* Transaction Management
-* Reports
-* User Management
-* Settings
-* Shift Management
+* Transaksi
+* Produk
+* Pelanggan
+* Shift
+* Laporan
+* Pengaturan
+* Manajemen Pengguna
 
 ---
 
-## Cashier
+## Kasir
 
-Kasir hanya memiliki akses terhadap fitur operasional.
+Kasir hanya memiliki akses operasional.
 
-Permissions:
+Hak akses:
 
 * Login
-* POS
-* Customer
-* Transaction History
+* Dashboard
+* Transaksi
+* Pelanggan
+* Riwayat Transaksi
 * Shift
 
 ---
 
-# 🎯 Project Goals
+# 🎯 Tujuan Pengembangan
 
-Tujuan utama pengembangan aplikasi ini adalah:
+Aplikasi ini dikembangkan untuk:
 
-* Digitalisasi proses transaksi penjualan.
-* Mempermudah pengelolaan stok produk.
-* Memantau performa penjualan secara real-time.
-* Menyediakan laporan bisnis yang informatif.
+* Mempermudah proses transaksi penjualan.
+* Mengelola stok produk secara lebih efektif.
+* Menyediakan laporan penjualan yang informatif.
+* Memantau aktivitas kasir.
 * Meningkatkan efisiensi operasional toko.
+* Mengurangi kesalahan pencatatan transaksi.
 
 ---
 
-# 🔮 Future Improvements
+# 🔮 Pengembangan Selanjutnya
 
-Planned features:
+Fitur yang direncanakan:
 
-* QR Code Scanner
-* Barcode Scanner
-* QRIS Payment Integration
-* WhatsApp Receipt
-* Multi Store Support
-* Supplier Management
-* Purchase Management
-* Inventory Adjustment
-* Advanced Analytics
+* Scan Barcode
+* Pembayaran QRIS
+* Kirim Struk WhatsApp
+* Multi Cabang
+* Manajemen Supplier
+* Manajemen Pembelian
 * Export PDF
 * Export Excel
-* Mobile Optimization
+* Dashboard Analitik yang Lebih Lengkap
+* Optimasi Tampilan Mobile
 
 ---
 
-# 📄 License
-
-This project is intended for educational and portfolio purposes.
-
----
-
-# 👨‍💻 Developer
+# 👨‍💻 Pengembang
 
 **Junior Alfredo Benerd Setiawan**
 
 SMK Negeri 6 Surakarta
 
-Internship Program — Data Analyst & Web Development
+Program Keahlian Rekayasa Perangkat Lunak (RPL)
 
 ---
 
-⭐ If you find this project useful, consider giving it a **Star** on GitHub.
+# 📄 Lisensi
+
+Proyek ini dibuat sebagai media pembelajaran, pengembangan portofolio, dan implementasi aplikasi Point of Sale berbasis Google Apps Script.
+
+---
+
+⭐ Jika proyek ini bermanfaat, jangan lupa berikan **Star** pada repository GitHub.

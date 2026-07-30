@@ -18,6 +18,10 @@ Aplikasi ini dirancang untuk mempermudah proses operasional toko, mulai dari tra
 Dengan memanfaatkan layanan Google Apps Script, aplikasi dapat dijalankan sebagai **Web App** tanpa memerlukan server khusus sehingga proses deployment menjadi lebih mudah, cepat, dan hemat biaya.
 
 ---
+# 🪧 Demo
+Jika anda ingin merasakan pengalaman mencoba aplikasi Web ini sihlakan click link dibawah ini, anda langsung dimasukan ke web GAS untuk bisa mengakses proyek sy
+
+https://script.google.com/macros/s/AKfycbyV6vuhJcTiJ9OQjtKZrYk9vcIfrmMnak6cw1blXsi-fqdHoxcvuH2IKU4eig2m6_tg/exec
 
 # ✨ Fitur Utama
 

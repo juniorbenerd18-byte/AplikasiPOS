@@ -10,8 +10,10 @@ Aplikasi point of sale (POS) & manajemen kasir UMKM berbasis Google Apps Script 
 
 ## Screenshot
 
-![Dashboard & Modul POS](./screenshots/dashboard.png)
-![Manajemen Produk & Transaksi](./screenshots/transaksi.png)
+![Dashboard & Modul POS](<img width="1920" height="915" alt="pos3" src="https://github.com/user-attachments/assets/4864611d-d81a-4732-99cf-965390b3a928" />
+)
+![Manajemen Produk & Transaksi](<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/f493cffd-9453-447d-afaf-f9673864b718" />
+)
 
 ## Cara Menjalankan
 
@@ -32,4 +34,4 @@ Aplikasi point of sale (POS) & manajemen kasir UMKM berbasis Google Apps Script 
 
 ## Portofolio Lengkap
 
-Lihat detail lengkap project ini, termasuk Jurnal Keputusan dan hasil penilaian industri di [Edusoft Portfolio](https://portfolio.edusoftcenter.com/projects/sistem-kasir-digital)
+Lihat detail lengkap project ini, termasuk Jurnal Keputusan dan hasil penilaian industri di (Portofolio Edusoft) https://portfolio.edusoftcenter.com/contributors/junior-alfredo-benerd-setiawan
